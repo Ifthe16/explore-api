@@ -13,7 +13,7 @@ function loadPosts() {
 function displayPosts(posts) {
     const postsContainer = document.getElementById('posts-container');
     for (const post of posts) {
-        console.log(post);
+        // console.log(post);
         const postDiv = document.createElement('div');
         postDiv.classList.add('post');
         postDiv.innerHTML = `
