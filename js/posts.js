@@ -19,10 +19,11 @@ function displayPosts(posts) {
         postDiv.innerHTML = `
   <h4>User- ${post.userId}</h4>
   <h5>Post: ${post.title}</h5>
-  <p>Post Description: ${(post.body)}</p>
+  <p>Post Description: ${post.body}</p>
   `;
         postsContainer.append(postDiv);
     }
 }
 
 loadPosts();
+
